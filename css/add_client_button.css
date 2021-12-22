@@ -1,0 +1,20 @@
+.add-client-button{
+    position: absolute;
+    right: 64px;
+    bottom: 190px;
+    width: 140px;
+    height: 44px;
+    padding-top: 11px;
+    padding-right: 29px;
+    padding-bottom: 11px;
+    padding-left: 30px;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+    background: #F94B5D;
+    border-radius: 22px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+@import "normalize.css";
+@import "navbar.css";
+@import "calendar.css";
+@import "physical_indicators.css";
+
+
+body{
+    width: 100%;
+    height: 100vh;
+}

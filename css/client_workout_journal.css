@@ -1,0 +1,10 @@
+@import "normalize.css";
+@import "content.css";
+@import "calendar.css";
+@import "exercise.css";
+@import "add_workout_button.css";
+@import "navbar.css";
+
+.content{
+    padding-bottom: 1000px;
+}

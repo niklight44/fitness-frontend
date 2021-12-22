@@ -1,0 +1,56 @@
+.client-profile{
+    display: flex;
+    height: 124px;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-left: auto;
+}
+
+.client-profile__photo{
+    width: 124px;
+    height: 124px;
+    margin-right: 0;
+}
+
+.client-profile__photo img{
+    width: 124px;
+    height: 124px;
+}
+
+.client-profile__info{
+    width: 212px;
+    height: 116px;
+    margin-top: 8px;
+    margin-left: 35px;
+}
+
+.client-profile__name{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.client-profile__time{
+    margin-top: 12px;
+
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #817D7D;
+}
+
+.client-profile__social-networks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    width: 100%;
+}
+
+.client-profile__socialnet{
+    width: 45px;
+    height: 45px;
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.25);
+
+}

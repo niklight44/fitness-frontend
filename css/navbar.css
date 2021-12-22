@@ -1,0 +1,100 @@
+@import "colors.css";
+
+nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    width: max(347px, 83.81%);
+    height: max(70px, 9.26%);
+    margin-left: auto;
+    margin-right: auto;
+
+ 
+    background-color: #fff;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 24px var(--nav-shadow);
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+
+
+@media screen and (min-width: 900px) {
+    nav{
+        width: 500px;
+        height: 83px;
+    }
+}
+
+.nav__item{
+    display: inline-block;
+    width: 20%;
+    color: #c4c4c4;
+}
+
+.nav__item_active{
+    color: #000;
+}
+
+.nav__icon{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    fill: #c4c4c4;
+}
+
+.nav__icon img{
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin: auto;
+}
+
+/* 1 иконка - Главный экран */
+.nav__item:nth-of-type(1) .nav__icon  img{
+    width: 44px;
+    height: 44px;
+    margin-top: 9px;
+    margin-bottom: -2px;
+}
+
+/* 2 иконка - Расписание */
+.nav__item:nth-of-type(2) .nav__icon  img{
+    width: 44px;
+    height: 37px;
+    margin-top: 14px;
+}
+
+/* 3 иконка - Физические показатели */
+.nav__item:nth-of-type(3) .nav__icon  img{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+/* 4 иконка - Журнал тренировок */
+.nav__item:nth-of-type(4) .nav__icon  img{
+    width: 37px;
+    height: 37px;
+    margin-top: 13px;
+}
+
+/* Подпись к иконке */
+.nav__title{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}

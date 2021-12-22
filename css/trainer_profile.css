@@ -1,0 +1,51 @@
+.trainer-profile{
+    display: flex;
+    width: 414px;
+    height: 164px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.trainer-profile__photo{
+    width: 129px;
+    height: 164px;
+    margin-left: 43px;
+    margin-right: 0;
+}
+
+.trainer-profile__info{
+    width: 161px;
+    height: 164px;
+    margin-left: 35px;
+}
+
+.trainer-profile__title{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.trainer-profile__phone{
+    margin-top: 20px;
+
+    font-size: 14px;
+    line-height: 16px;
+    color: #817D7D;
+}
+
+.trainer-profile__socialnetworks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    width: 100%;
+}
+
+.trainer-profile__socialnet{
+    width: 45px;
+    height: 45px;
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.25);
+
+}

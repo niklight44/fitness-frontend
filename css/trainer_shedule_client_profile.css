@@ -1,0 +1,21 @@
+@import "client_profile.css";
+
+
+.calendar{
+    margin-bottom: 90px;
+}
+
+
+
+.client-profile__photo{
+    width: 108px;
+    height: 124px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+
+.client-profile__photo img{
+    width: 124px;
+    height: 124px;
+    border-radius: 10px 0 10px 0;
+}

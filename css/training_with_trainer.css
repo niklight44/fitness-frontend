@@ -1,0 +1,21 @@
+@import "trainer_profile.css";
+
+.training-with-trainer{
+    width: 414px;
+    height: 289px;
+    
+    margin-top: 45px;
+    margin-right: auto;
+    margin-bottom: -10px;
+    margin-left: auto;
+    
+    font-family: Roboto, sans-serif;
+}
+
+.training-with-trainer__time{
+    margin-top: 45px;
+    margin-left: 43px;
+
+    font-size: 64px;
+    line-height: 75px;
+}

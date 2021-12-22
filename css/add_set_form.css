@@ -1,0 +1,76 @@
+.add-set-form{
+    display: grid;
+    grid-template-columns: 80px 8px 25px 47px 80px 8px 59px;
+    grid-template-rows: 42px 28px 10px;
+    height: 80px;
+    margin-top: 327px;
+    margin-left: 87px;
+
+    box-sizing: border-box;
+}
+
+.add-set-form input{
+    width: 80px;
+    height: 80px;
+
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 75px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    box-shadow: inset 0 0 6px #7090B0;
+}
+
+.add-set-form input[name=weight]{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+
+.add-set-form input[name=times]{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+
+.add-set-form__unit{
+    display: inline-block;
+    margin-right: 8px;
+
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.add-set-form__unit-kg{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.add-set-form__unit-times{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.add-set-form button[type=submit]{
+    position: absolute;
+    top: 662px;
+    left: 272px;
+
+    width: 100px;
+    height: 44px;
+
+    color: #fff;
+    background-color: #F94B5D;
+    border:none;
+    border-radius: 22px;
+}

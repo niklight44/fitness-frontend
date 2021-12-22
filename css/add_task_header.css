@@ -1,0 +1,21 @@
+.add-task-header{
+    display: flex;
+    align-items: center;
+    margin-top: 43px;
+    margin-left: 49px;
+}
+
+.add-task-header__back{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.add-task-header__title{
+    display: inline-block;
+    margin-left: 37px;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}

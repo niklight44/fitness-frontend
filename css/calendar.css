@@ -1,0 +1,44 @@
+.calendar{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 380px;
+    height: 96px;
+    margin-top: 37px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Roboto;
+}
+
+.calendar__day{
+    width: 44px;
+    height: 96px;
+    border-radius: 10px;
+
+    background-color: #fffbfb;
+}
+
+.calendar__day_active{
+    background-color: rgba(255, 209, 218, 1)
+    ;
+}
+
+.calendar__weekday{
+    width: 100%;
+    margin-top: 12px;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.calendar__day-of-month{
+    width: 100%;
+    margin-top: 16px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}

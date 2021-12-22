@@ -1,0 +1,24 @@
+.next-training{
+    width: 414px;
+    height: 130px;
+
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.next-training__day{
+    margin-left: 46px;
+
+    font-size: 24px;
+    line-height: 28px;
+    color: #504F4F;
+}
+
+.next-training__time{
+    margin-top: 27px;
+    margin-left: 46px;
+
+    font-size: 64px;
+    line-height: 75px;
+}

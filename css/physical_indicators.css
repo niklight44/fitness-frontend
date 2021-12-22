@@ -1,0 +1,119 @@
+.physical-indicators{
+    display: grid;
+    grid-template-columns: 156px 17px 156px;
+    grid-template-rows:  218px 20px 30px 20px 218px;
+
+
+    width: 329px;
+    height: 506px;
+    margin-top: 47px;
+    margin-right: auto;
+    margin-bottom: 210px;
+    margin-left: auto;
+
+    font-family: Roboto, sans-serif;
+}
+
+.physical-indicators__card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.25);
+}
+
+
+
+.physical-indicators__card_calories{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.physical-indicators__card_weight{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.physical-indicators__card_pulse{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.physical-indicators__card_time{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.physical-indicators__header{
+    display: flex;
+    align-items: center;
+
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.physical-indicators__icon{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
+
+.physical-indicators__title{
+    display: inline-block;
+    margin-left: 11px;
+    
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.physical-indicators__unit{
+    margin-top: 4px;
+    margin-left: 27px;
+}
+
+.physical-indicators__card_calories .physical-indicators__number{
+    width: 100%;
+    margin-top: 70px;
+    
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.physical-indicators__card_weight .physical-indicators__number{
+    width: 100%;
+    margin-top: 35px;
+
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+}
+
+.physical-indicators__card_pulse .physical-indicators__number{
+    width: 100%;
+    margin-top: 31px;
+
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+}
+
+.physical-indicators__card_time .physical-indicators__number{
+    width: 100%;
+    margin-top: 56px;
+
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+}

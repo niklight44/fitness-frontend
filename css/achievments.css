@@ -1,0 +1,138 @@
+.achievments{
+    display: grid;
+    grid-template-columns: 168px 124px;
+    grid-template-rows: 20px 124px 124px;
+
+    width: 414px;
+    height: 305px;
+    margin: auto;
+
+    font-weight: 300;
+    color: #fff;
+}
+
+.achievments__header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    margin-left: 43px;
+    color: #000;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+/* Калории */
+.card:nth-of-type(2){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    width: 168px;
+    height: 268px;
+    margin-left: 43px;    
+    background-image: url('/images/burned_calories.png');
+}
+
+.card:nth-of-type(2)>.achievments__title{
+    margin: 18px 19px;
+
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.card:nth-of-type(2)>.achievments__number{
+    margin-top: 56px;
+    margin-left: 12px;
+  
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.card:nth-of-type(2)>.achievments__unit{
+    margin-top: 13px;
+    margin-left: 19px;
+
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+
+/* Упражнения */
+.card:nth-of-type(3){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    width: 124px;
+    height: 124px;
+    margin-left: 80px;
+    background-image: url('/images/exercised_hours.png');
+}
+
+.card:nth-of-type(3)>.achievments__title{
+    margin: 18px 0 0 32px;
+
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.card:nth-of-type(3)>.achievments__number{
+    margin-left: 28px;
+  
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.card:nth-of-type(3)>.achievments__unit{
+    margin-top: -10px;
+    margin-left: 31px;
+
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* Киллограммы */
+.card:nth-of-type(4){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    width: 124px;
+    height: 124px;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-image: url('/images/lost_kg.png');
+}
+
+.card:nth-of-type(4)>.achievments__title{
+    margin-top: 12px;
+    margin-left: 48px;
+
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.card:nth-of-type(4)>.achievments__number{
+    width: 100%;
+
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.card:nth-of-type(4)>.achievments__unit{
+    width: 100%;
+    margin-top: -10px;
+
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}

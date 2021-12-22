@@ -1,0 +1,18 @@
+@import "normalize.css";
+@import "colors.css";
+@import "achievments.css";
+@import "trainer_profile.css";
+@import "next_training.css";
+@import "navbar.css";
+
+
+
+.content{
+    width: max(414px, 100%);
+    height: max(896px, 100vh);
+    margin: auto;
+    background-color: #fff;
+
+    font-family: "Roboto", sans-serif;
+}
+

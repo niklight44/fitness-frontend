@@ -1,0 +1,32 @@
+.add-workout-button-container{
+    position: fixed;
+    bottom: 161px;
+
+    width: 414px;
+    height: 44px;
+
+}
+
+.add-workout-button{
+    position: absolute;
+    right: 51px;
+
+    width: 44px;
+    height: 44px;
+
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(249, 75, 93, 1);
+    border-radius: 22px;
+    box-shadow: 0 8px 24px rgba(112, 144, 176, 0.15);
+}
+
+.add-workout-button:active{
+    background-color: #B00618;
+    box-shadow: none;
+}
